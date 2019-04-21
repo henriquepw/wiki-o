@@ -23,7 +23,7 @@ class App extends Component {
 				<GlobalStyle />
 				<Header>
 					<Bar>
-						<h1>Wiki Aleatória - Regas</h1>
+						<h1>Wiki Aleatória - Regras</h1>
 						<Button onClick={toggleModal}>?</Button>
 					</Bar>
 

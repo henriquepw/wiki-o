@@ -1,35 +1,24 @@
-import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'react-bootstrap';
+/* eslint-disable react/destructuring-assignment */
+import React from 'react';
+import { Modal } from 'react-bootstrap';
+import { Header, Title, Body } from 'react-bootstrap/Modal';
 
-class ModalComponent extends Component {
-	render() {
-		return (
-			<Modal
-				{...this.props}
-				size='lg'
-				aria-labelledby='contained-modal-title-vcenter'
-				centered
-			>
-				<Modal.Header closeButton>
-					<Modal.Title id='contained-modal-title-vcenter'>
-						Modal heading
-					</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>
-					<h4>Centered Modal</h4>
-					<p>
-						Cras mattis consectetur purus sit amet fermentum. Cras
-						justo odio, dapibus ac facilisis in, egestas eget quam.
-						Morbi leo risus, porta ac consectetur ac, vestibulum at
-						eros.
-					</p>
-				</Modal.Body>
-				<Modal.Footer>
-					<Button onClick={this.props.onHide}>Close</Button>
-				</Modal.Footer>
-			</Modal>
-		);
-	}
-}
+type ModalProps = {
+	onHide: boolean
+};
 
-export default ModalComponent;
+export default (props: ModalProps) => (
+	<Modal
+		{...props}
+		size='lg'
+		aria-labelledby='contained-modal-title-vcenter'
+		centered
+	>
+		<Header closeButton>
+			<Title id='contained-modal-title-vcenter'>Sobre</Title>
+		</Header>
+		<Body>
+			<p>Em construção :)</p>
+		</Body>
+	</Modal>
+);

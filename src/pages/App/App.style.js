@@ -1,42 +1,37 @@
 import styled from 'styled-components';
+import {
+	background,
+	primaryColor,
+	primaryTextColor,
+	secondaryTextColor,
+	hoverTextColor
+} from '../../styles/colors';
 
-//#282c34;
 const Container = styled.div`
-	background-color: #f9f5e8;
+	background-color: ${background};
 	min-height: 100vh;
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #292929;
+	color: ${primaryColor};
 `;
 
 const Header = styled.header`
 	display: flex;
 	position: relative;
+	align-items: center;
+	justify-content: center;
 
 	width: 100vw;
 	height: 96px;
 
-	background-color: white;
+	background-color: ${primaryColor};
 
 	h1 {
-		margin: auto;
 		padding-left: 25px;
-		min-width: 984px;
 		font-size: 4.5rem;
-		font-weight: bold;
-	}
-
-	&::before {
-		content: '';
-		top: 6px;
-		width: 100vw;
-		position: absolute;
-		background: transparent;
-		border-bottom: 2px dotted #292929;
-		border-top: 2px dotted #292929;
-		height: 84px;
+		color: ${primaryTextColor};
 	}
 `;
 
@@ -51,21 +46,52 @@ const Footer = styled.footer`
 	position: relative;
 
 	width: 100vw;
-	height: 96px;
+	height: 86px;
 
-	background-color: #4b4a4a;
+	background-color: ${primaryColor};
 
 	h2 {
 		margin: auto;
 		min-width: 984px;
 		font-size: 1em;
 		text-align: center;
-		color: #b1b1b1;
+		color: ${primaryTextColor};
 
 		a {
-			color: #2286c3;
+			color: ${hoverTextColor};
 		}
 	}
 `;
 
-export { Container, Header, Section, Footer };
+const Button = styled.label`
+	color: ${primaryTextColor};
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	margin-right: 25px;
+	font-size: 2.5rem;
+
+	border-radius: 50%;
+	border: 2px solid ${primaryTextColor};
+
+	text-align: center;
+	line-height: 50px;
+	box-sizing: content-box;
+
+	transition: 0.3s;
+
+	&:hover {
+		cursor: pointer;
+		color: ${hoverTextColor};
+		border-color: ${hoverTextColor};
+	}
+`;
+
+const Bar = styled.div`
+	min-width: 984px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+`;
+
+export { Container, Header, Section, Footer, Button, Bar };

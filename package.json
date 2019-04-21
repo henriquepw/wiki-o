@@ -9,11 +9,17 @@
 		"react-bootstrap": "^1.0.0-beta.8",
 		"react-dom": "^16.8.6",
 		"react-scripts": "2.1.8",
+		"reactstrap": "^8.0.0",
 		"styled-components": "^4.2.0",
 		"styled-icons": "^7.2.0"
 	},
 	"devDependencies": {
-		"gh-pages": "^2.0.1"
+		"eslint": "5.12.0",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-prettier": "^4.1.0",
+		"eslint-plugin-prettier": "^3.0.1",
+		"gh-pages": "^2.0.1",
+		"prettier": "^1.16.4"
 	},
 	"scripts": {
 		"start": "react-scripts start",

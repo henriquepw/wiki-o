@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ModalComponent from '../../Components/ModalComponent/ModalComponent';
 
-import { Container, Header, Section, Footer } from './App.style';
+import { Container, Header, Section, Footer, Button, Bar } from './App.style';
 import GlobalStyle from '../../styles/globalStyle';
 
 class App extends Component {
@@ -14,18 +14,19 @@ class App extends Component {
 	}
 
 	render() {
-		const modalHide = () => this.setState({ modalShow: false });
-		const modalShow = () => this.setState({ modalShow: true });
+		const { modal } = this.state;
+		const toggleModal = () => this.setState({ modal: !modal });
 
 		return (
 			<Container>
 				<GlobalStyle />
 				<Header>
-					<h1>Regas</h1>
-					<ModalComponent
-						show={this.state.modal}
-						onHide={modalHide}
-					/>
+					<Bar>
+						<h1>Regas</h1>
+						<Button onClick={toggleModal}>?</Button>
+					</Bar>
+
+					<ModalComponent show={modal} onHide={toggleModal} />
 				</Header>
 				<Section>
 					<ol>

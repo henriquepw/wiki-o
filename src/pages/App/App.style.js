@@ -39,6 +39,20 @@ const Section = styled.section`
 	max-width: 984px;
 	flex: 1;
 
+	h2 {
+		font-weight: 600;
+	}
+
+	p {
+		text-align: justify;
+		margin-block-end: 0.5rem;
+	}
+
+	ul,
+	p {
+		margin-left: 25px;
+	}
+
 	a {
 		color: ${hoverTextColor};
 	}

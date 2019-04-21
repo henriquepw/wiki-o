@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ModalComponent from '../../Components/ModalComponent/ModalComponent';
+import Tab from '../../Components/Tab/Tab';
 
 import { Container, Header, Section, Footer, Button, Bar } from './App.style';
 import GlobalStyle from '../../styles/globalStyle';
@@ -22,64 +23,97 @@ class App extends Component {
 				<GlobalStyle />
 				<Header>
 					<Bar>
-						<h1>Regas</h1>
+						<h1>Wiki Aleatória - Regas</h1>
 						<Button onClick={toggleModal}>?</Button>
 					</Bar>
 
 					<ModalComponent show={modal} onHide={toggleModal} />
 				</Header>
 				<Section>
-					<ol>
+					<h2>Jogadores recomendados:</h2>
+					<p>
+						De 3 a 8 jogadores, mas pode ser quantos você quiser, só
+						não deve ser bom jogar sozinho PepeHands.
+					</p>
+					<h2>Preparando para jogar:</h2>
+					<p>
+						Entrem na página principal da{' '}
+						<a
+							href='https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Wikipédia
+						</a>{' '}
+						em português.
+					</p>
+					<p>
+						Cada jogador irá abrir dez páginas aleatórias clicando
+						no botão “
+						<a
+							href='https://pt.wikipedia.org/wiki/Especial:Aleat%C3%B3ria'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							página aleatória
+						</a>
+						” no lado esquerdo Cada página é uma carta.
+					</p>
+					<p>
+						Das dez páginas abertas, você irá escolher cinco
+						melhores cartas, as mais raras, as mais interessantes ao
+						seu critério, no jogo você terá que argumentar por que
+						ele tem essa raridade. Após escolher essas cinco cartas,
+						cada jogador tem o direito de 2 rerolls opcionais.
+					</p>
+					<h2>Reroll:</h2>
+					<p>
+						O reroll consistem em você poder trocar uma carta das
+						cinco escolhidas por uma aleatória clicando em “página
+						aleatória”, após a troca, não será possível destrocar,
+						fica no risco do jogador, pode vi melhor ou pode vim uma
+						comuna francesa.
+					</p>
+					<h2>BlackList:</h2>
+					<p>
+						É a lista das cartas que são péssimas, qualquer coisa
+						vence delas:
+					</p>
+					<ul>
+						<li>Comunas francesas</li>
+						<li>Satélites</li>
+						<li>Times de futebol</li>
+					</ul>
+					<h2>Início do jogo:</h2>
+					<p>
+						Cada jogador irá escolher uma das cinco cartas para
+						jogar, após avisar ao outros jogadores que escolheu não
+						vale mais trocar de carta, após isso, cada um falará
+						qual é sua carta tem o direito de argumentar sua
+						raridade.
+					</p>
+					<p>
+						Os jogadores iram votar na carta que acharem a melhor, e
+						quem tiver mais votos vence a rodada. Vence a partida
+						quem ganhar rodadas.
+					</p>
+					<h2>Regras opcionais:</h2>
+					<ul>
 						<li>
-							Entra na pagina principal da Wikipedia do idioma
-							escolhido pelos participantes
-						</li>
-						<li>
-							Cada jogador irar abrir 10 abas de página
-							aleatória(encontra-se no lado esquerdo da página)
-						</li>
-						<li>Cada página é uma carta diferente</li>
-						<li>
-							Das 10 abertas, você ira escolher as 5 melhores,
-							mais raras
-						</li>
-						<li>
-							Quanto mais interessante for sua página, mais rara
-							ela é
-						</li>
-						<li>
-							Cada jogador apos escolher as suas 5 cartas, podera
-							fazer o reroll(<b>não é obrigatório</b>)
-						</li>
-						<li>
-							O reroll consisate em você escolher uma carta e
-							trocá-la por outra aleatória
-						</li>
-						<li>
-							você tem direito a 2 rerolls, pode ser na mesma
-							carta ou em cartas diferentes
-						</li>
-						<li>Apois o reroll você não pode voltar atrais</li>
-						<li>Apois isso o jogo inicia</li>
-						<li>
-							Cada um escolhe uma carta para jogar, apois escolha
-							não vale trocar de carta
+							O idioma das páginas podem ser escolhidas pelos
+							jogadores se todos estiverem de acordo
 						</li>
 						<li>
 							Para garantir que ninguém vai trocar de carta, os
-							jogadores podem mandar o link da página no discord
-							ou algo do tipo ao mesmo tempo
+							jogadores podem mandar o link da sua página no
+							discord ou algo do tipo ao mesmo tempo
 						</li>
+						<li>Os jogadores não podem votar em si mesmo</li>
 						<li>
-							Os jogadores votão na que acharem melhor, e a carta
-							que tiver mais votos ganha o turno
+							Em vez de usar páginas da Wikipedia, pode ser usar
+							páginas do mercadolivre ou do wikiHow
 						</li>
-						<li> Vence quem ganhou mais turnos</li>
-						<li>
-							<b>Regra opicional</b>: O jogador não pode votar em
-							sí mesmo
-						</li>
-					</ol>
+					</ul>
 				</Section>
 				<Footer>
 					<h2>

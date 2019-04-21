@@ -3,7 +3,6 @@ import {
 	background,
 	primaryColor,
 	primaryTextColor,
-	secondaryTextColor,
 	hoverTextColor
 } from '../../styles/colors';
 
@@ -37,8 +36,12 @@ const Header = styled.header`
 
 const Section = styled.section`
 	padding: 25px;
-	min-width: 984px;
+	max-width: 984px;
 	flex: 1;
+
+	a {
+		color: ${hoverTextColor};
+	}
 `;
 
 const Footer = styled.footer`
@@ -52,7 +55,7 @@ const Footer = styled.footer`
 
 	h2 {
 		margin: auto;
-		min-width: 984px;
+		max-width: 984px;
 		font-size: 1em;
 		text-align: center;
 		color: ${primaryTextColor};
@@ -92,6 +95,13 @@ const Bar = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+	h1 {
+		flex: 1;
+		&:hover {
+			cursor: context-menu;
+		}
+	}
 `;
 
 export { Container, Header, Section, Footer, Button, Bar };

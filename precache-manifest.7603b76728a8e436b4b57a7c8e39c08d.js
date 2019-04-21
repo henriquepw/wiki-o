@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/regas-jogo-wiki/static/js/runtime~main.b85aaeaf.js"
   },
   {
-    "revision": "aff43b9522d49351cff6",
-    "url": "/regas-jogo-wiki/static/js/main.9cee566a.chunk.js"
+    "revision": "dc3e10f68fbdac26fbaf",
+    "url": "/regas-jogo-wiki/static/js/main.e14f1eca.chunk.js"
   },
   {
     "revision": "2b03a4e435f0eee2718b",
     "url": "/regas-jogo-wiki/static/js/2.8acffab5.chunk.js"
   },
   {
-    "revision": "9f55b8b023e6856ff97244c4042ca1d0",
+    "revision": "4abf998bb47946c7024c6422af349027",
     "url": "/regas-jogo-wiki/index.html"
   }
 ];

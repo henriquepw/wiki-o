@@ -27,7 +27,10 @@ class App extends Component {
 						<Button onClick={toggleModal}>?</Button>
 					</Bar>
 
-					<ModalComponent show={modal} onHide={toggleModal} />
+					<ModalComponent
+						show={modal}
+						onHide={() => this.setState({ modal: false })}
+					/>
 				</Header>
 				<Section>
 					<h2>Jogadores recomendados:</h2>

@@ -15,7 +15,7 @@ export default (props: ModalProps) => (
 		aria-labelledby='contained-modal-title-vcenter'
 		centered
 	>
-		<Header closeButton>
+		<Header>
 			<Title id='contained-modal-title-vcenter'>Sobre</Title>
 		</Header>
 		<Body>

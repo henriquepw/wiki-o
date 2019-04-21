@@ -1,11 +1,11 @@
 {
-  "main.js": "/static/js/main.0da29ea8.chunk.js",
-  "main.js.map": "/static/js/main.0da29ea8.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.dc85911c.chunk.js": "/static/js/2.dc85911c.chunk.js",
-  "static/js/2.dc85911c.chunk.js.map": "/static/js/2.dc85911c.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.fa5b775bacb1ddcd6efb81c34d07dee1.js": "/precache-manifest.fa5b775bacb1ddcd6efb81c34d07dee1.js",
-  "service-worker.js": "/service-worker.js"
+  "main.js": "/regas-jogo-wiki/static/js/main.0da29ea8.chunk.js",
+  "main.js.map": "/regas-jogo-wiki/static/js/main.0da29ea8.chunk.js.map",
+  "runtime~main.js": "/regas-jogo-wiki/static/js/runtime~main.b85aaeaf.js",
+  "runtime~main.js.map": "/regas-jogo-wiki/static/js/runtime~main.b85aaeaf.js.map",
+  "static/js/2.8acffab5.chunk.js": "/regas-jogo-wiki/static/js/2.8acffab5.chunk.js",
+  "static/js/2.8acffab5.chunk.js.map": "/regas-jogo-wiki/static/js/2.8acffab5.chunk.js.map",
+  "index.html": "/regas-jogo-wiki/index.html",
+  "precache-manifest.ec473af61c20e4e53cde838dc4f8e911.js": "/regas-jogo-wiki/precache-manifest.ec473af61c20e4e53cde838dc4f8e911.js",
+  "service-worker.js": "/regas-jogo-wiki/service-worker.js"
 }

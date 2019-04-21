@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/regas-jogo-wiki/precache-manifest.7603b76728a8e436b4b57a7c8e39c08d.js"
+  "/regas-jogo-wiki/precache-manifest.12dbca0364ff5a9265561858ac3885f8.js"
 );
 
 workbox.clientsClaim();

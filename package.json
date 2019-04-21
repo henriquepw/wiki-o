@@ -1,5 +1,6 @@
 {
 	"name": "regas-jogo-wiki",
+	"homepage": "https://henry-ns.github.io/regas-jogo-wiki/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

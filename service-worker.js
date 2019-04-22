@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/regas-jogo-wiki/precache-manifest.e185a25b5481fecbc0893f41cc9e65dc.js"
+  "/wiki-o/precache-manifest.39b3bc396e565f01ff74228ceabcb873.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/regas-jogo-wiki/index.html", {
+workbox.routing.registerNavigationRoute("/wiki-o/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

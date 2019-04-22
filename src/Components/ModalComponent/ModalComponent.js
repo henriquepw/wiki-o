@@ -53,7 +53,18 @@ export default (props: ModalProps) => (
 					Gabi
 				</A>
 			</p>
-			<p>Site em construção :)</p>
+			<p>
+				Site em construção. Se quiser ajudar é open source, o projeto ta
+				no{' '}
+				<A
+					href='https://github.com/henry-ns/wiki-o'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					github
+				</A>{' '}
+				:)
+			</p>
 		</Body>
 	</Modal>
 );

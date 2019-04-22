@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import ModalComponent from '../../Components/ModalComponent/ModalComponent';
-import Tab from '../../Components/Tab/Tab';
 
 import { Container, Header, Section, Footer, Button, Bar } from './App.style';
 import GlobalStyle from '../../styles/globalStyle';
+
+// const Tab = () => <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>;
 
 class App extends Component {
 	constructor(props) {
@@ -69,7 +70,7 @@ class App extends Component {
 						ele tem essa raridade. Após escolher essas cinco cartas,
 						cada jogador tem o direito de 2 rerolls opcionais.
 					</p>
-					<h2>Reroll:</h2>
+					<h2>Reroll</h2>
 					<p>
 						O reroll consistem em você poder trocar uma carta das
 						cinco escolhidas por uma aleatória clicando em “página
@@ -77,30 +78,37 @@ class App extends Component {
 						fica no risco do jogador, pode vi melhor ou pode vim uma
 						comuna francesa.
 					</p>
-					<h2>BlackList:</h2>
+					<h2>Raridade das cartas</h2>
 					<p>
-						É a lista das cartas que são péssimas, qualquer coisa
-						vence delas:
+						Páginas comuns como cidades desconhecidas, asteroides ou
+						comunas francesas são consideradas fracas, ao passo que
+						artistas, lugares importantes e nomes engraçados são
+						raros.
 					</p>
-					<ul>
-						<li>Comunas francesas</li>
-						<li>Satélites</li>
-						<li>Times de futebol</li>
-					</ul>
-					<h2>Início do jogo:</h2>
+					<h2>Rodadas de classificação</h2>
 					<p>
-						Cada jogador irá escolher uma das cinco cartas para
-						jogar, após avisar ao outros jogadores que escolheu não
-						vale mais trocar de carta, após isso, cada um falará
-						qual é sua carta tem o direito de argumentar sua
-						raridade.
+						Com as 5 cartas escolhidas, os jogadores expõem uma por
+						rodada e em cada rodada uma carta é escolhida como a
+						melhor. A escolha é arbitrária a partir da "raridade" da
+						carta.
 					</p>
 					<p>
 						Os jogadores iram votar na carta que acharem a melhor, e
 						quem tiver mais votos vence a rodada. Vence a partida
 						quem ganhar rodadas.
 					</p>
-					<h2>Regras opcionais:</h2>
+					<h2>Rodada final</h2>
+					<p>
+						Ao final das 5 rodadas, começa a rodada final que vai
+						decidir o ganhador. Cada carta vencedora, dá ao seu
+						jogador uma chance a mais na rodada final. (1 carta
+						vencedora = +1 carta para a final) Na rodada final os
+						jogadores têm três chances (mais as cartas vencedoras)
+						de escolher apenas UMA carta para competir. A melhor (a
+						partir dos mesmos critérios das rodadas de
+						classificação) ganha.
+					</p>
+					<h2>Regras opcionais</h2>
 					<ul>
 						<li>
 							O idioma das páginas podem ser escolhidas pelos
@@ -116,6 +124,10 @@ class App extends Component {
 							Em vez de usar páginas da Wikipedia, pode ser usar
 							páginas do mercadolivre ou do wikiHow
 						</li>
+						<li>
+							A raridade das cartas podem diferentes dependendo do
+							gosto dos jogadores.
+						</li>
 					</ul>
 				</Section>
 				<Footer>
@@ -126,7 +138,7 @@ class App extends Component {
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							Meu portfolio
+							Projetos
 						</a>
 					</h2>
 				</Footer>

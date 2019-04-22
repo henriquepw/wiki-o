@@ -9,7 +9,6 @@ import {
 const Container = styled.div`
 	background-color: ${background};
 	min-height: 100vh;
-	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -22,14 +21,14 @@ const Header = styled.header`
 	align-items: center;
 	justify-content: center;
 
-	width: 100vw;
+	width: 100%;
 	height: 96px;
 
 	background-color: ${primaryColor};
 
 	h1 {
 		padding-left: 25px;
-		font-size: 4.5rem;
+		font-size: 3rem;
 		color: ${primaryTextColor};
 	}
 `;
@@ -46,11 +45,11 @@ const Section = styled.section`
 	p {
 		text-align: justify;
 		margin-block-end: 0.5rem;
+		margin-left: 25px;
 	}
 
-	ul,
-	p {
-		margin-left: 25px;
+	ul {
+		margin-left: 8px;
 	}
 
 	a {
@@ -62,7 +61,7 @@ const Footer = styled.footer`
 	display: flex;
 	position: relative;
 
-	width: 100vw;
+	width: 100%;
 	height: 86px;
 
 	background-color: ${primaryColor};
@@ -77,6 +76,8 @@ const Footer = styled.footer`
 		a {
 			color: ${hoverTextColor};
 		}
+
+		opacity: 0.8;
 	}
 `;
 

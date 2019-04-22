@@ -2,7 +2,7 @@
 	"name": "regas-jogo-wiki",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://henry-ns.github.io/regas-jogo-wiki/",
+	"homepage": "https://henry-ns.github.io/wiki-o/",
 	"dependencies": {
 		"bootstrap": "^4.3.1",
 		"react": "^16.8.6",

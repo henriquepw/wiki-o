@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/wiki-o/static/js/runtime~main.e3bde118.js"
   },
   {
-    "revision": "6c9dd0f6953bc0fe1a62",
-    "url": "/wiki-o/static/js/main.fd02a65a.chunk.js"
+    "revision": "5c48468fe1811059e3c0",
+    "url": "/wiki-o/static/js/main.18a813b5.chunk.js"
   },
   {
     "revision": "cf8d110dd2bc935c72c7",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/wiki-o/static/css/2.acdd0362.chunk.css"
   },
   {
-    "revision": "0e3ae6e526d6bed637729857bd8fc8cb",
+    "revision": "a3fce1121de80adb6f2ef1e4ea1917f3",
     "url": "/wiki-o/index.html"
   }
 ];

@@ -54,8 +54,21 @@ export default (props: ModalProps) => (
 				</A>
 			</p>
 			<p>
-				Site em construção. Se quiser ajudar é open source, o projeto ta
-				no{' '}
+				Contribuidora:{' '}
+				<A
+					href='https://www.facebook.com/meiliz.twitch'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Melissa Meiliz
+				</A>
+				{' - '}
+				Escrevou parte das regras
+			</p>
+			<p>Meu nick na twitch: cavaloskatista</p>
+			<p>
+				Site em construção. Se quiser ajudar ou usar de referência,
+				fique a vontade, o projeto está no{' '}
 				<A
 					href='https://github.com/henry-ns/wiki-o'
 					target='_blank'
@@ -63,7 +76,7 @@ export default (props: ModalProps) => (
 				>
 					github
 				</A>{' '}
-				:)
+				peepoLove
 			</p>
 		</Body>
 	</Modal>
